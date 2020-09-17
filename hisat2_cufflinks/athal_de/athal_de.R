@@ -37,9 +37,16 @@ both_counts <- merge(merged_counts, to_keep, by.x = "feature", by.y = "feature",
 # convert na values to 0 as measured in featurecounts
 both_counts$fold_change[is.na(both_counts$fold_change)] <- 0
 both_counts
+length(both_counts$fold_change)
+length(both_counts$log_change_cufflinks)
 attach(both_counts)
-plot(fold_change, log_change_cufflinks, pch = 19, col = 2, xlab = "log change, featureCounts",
+plot(x = fold_change, y = log_change_cufflinks, pch = 19, col = 2, xlab = "log change, featureCounts",
      ylab = "log change, Cuffinks", main = "featureCounts vs. Cuffinks log change response")
 
+plot(density(both_counts$fold_change), ylab = "density", xlab = "log2 fold change",
+     main = "Distribution of log changes, Cufflinks vs. featureCounts", col = 1, lty = 2)
+lines(density(as.numeric(both_counts$log_change_cufflinks)), col = 2, lty = 1)
+
+legend(locator(1), legend = c("featureCounts", "Cufflinks"), col = c(2, 1), lty = c(1,2), cex = 0.8)
 
 
