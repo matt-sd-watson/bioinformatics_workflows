@@ -1,0 +1,5 @@
+param	value
+cmd_line	cuffdiff -o cuffdiff merged_asm/merged.gtf day8.sorted.bam day16.sorted.bam 
+version	2.2.2
+SVN_revision	
+boost_version	107300

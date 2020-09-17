@@ -1,0 +1,2 @@
+/Users/mattsdwatson/Documents/Informatics/coursera_gds/coursera_gds/coursera_gds/Linux/gencommand_proj4/cufflinks/day8/transcripts.gtf
+/Users/mattsdwatson/Documents/Informatics/coursera_gds/coursera_gds/coursera_gds/Linux/gencommand_proj4/cufflinks/day16/transcripts.gtf

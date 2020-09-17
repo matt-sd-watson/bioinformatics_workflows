@@ -1,0 +1,14 @@
+# Cuffcompare v2.2.2 | Command line was:
+#cuffcompare /Users/mattsdwatson/Documents/Informatics/coursera_gds/coursera_gds/coursera_gds/Linux/gencommand_proj4/athal_genes.gtf -R transcripts.gtf
+#
+
+#= Summary for dataset: /Users/mattsdwatson/Documents/Informatics/coursera_gds/coursera_gds/coursera_gds/Linux/gencommand_proj4/athal_genes.gtf 
+#     Query mRNAs :     172 in     134 loci  (141 multi-exon transcripts)
+#            (30 multi-transcript loci, ~1.3 transcripts per locus)
+
+#= Summary for dataset: transcripts.gtf 
+#     Query mRNAs :     185 in     174 loci  (75 multi-exon transcripts)
+#            (10 multi-transcript loci, ~1.1 transcripts per locus)
+
+ Total union super-loci across all input datasets: 197 
+  (43 multi-transcript, ~1.7 transcripts per locus)

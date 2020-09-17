@@ -1,0 +1,3 @@
+file	condition	replicate_num	total_mass	norm_mass	internal_scale	external_scale
+day8.sorted.bam	q1	0	61939	60167.1	0.824958	1
+day16.sorted.bam	q2	0	55444.5	60167.1	1.2252	1
