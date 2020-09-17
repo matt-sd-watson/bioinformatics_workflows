@@ -1,7 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	ERR1147328	/Users/mattsdwatson/mouse_de/fastq/fastqc_reports/ERR1147328_fastqc.zip
-FastQC	all_sections	ERR1147325	/Users/mattsdwatson/mouse_de/fastq/fastqc_reports/ERR1147325_fastqc.zip
-FastQC	all_sections	ERR1147327	/Users/mattsdwatson/mouse_de/fastq/fastqc_reports/ERR1147327_fastqc.zip
-FastQC	all_sections	SRR2036231	/Users/mattsdwatson/mouse_de/fastq/fastqc_reports/SRR2036231_fastqc.zip
-FastQC	all_sections	SRR2036232	/Users/mattsdwatson/mouse_de/fastq/fastqc_reports/SRR2036232_fastqc.zip
-FastQC	all_sections	ERR1147326	/Users/mattsdwatson/mouse_de/fastq/fastqc_reports/ERR1147326_fastqc.zip
